@@ -1042,3 +1042,15 @@ button:focus-visible,
     padding: 0.7rem;
   }
 }
+/* FIX: Always show the Memories section */
+.memories-scene .memories-scene__inner,
+.memories-scene .scene-marker,
+.memories-scene .scroll-indicator {
+  opacity: 1 !important;
+  transform: none !important;
+}
+
+.memories-scene .memory-card {
+  opacity: 1 !important;
+  transform: none !important;
+}

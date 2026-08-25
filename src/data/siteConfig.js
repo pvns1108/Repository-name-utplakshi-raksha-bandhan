@@ -51,38 +51,39 @@ export const siteConfig = {
   // public/photos/ (see the README for exact filenames).
   // --------------------------------------------------------------------------
   memories: [
-    {
-      image: "/photos/memory-1.jpg",
-      number: "01",
-      title: "The Beginning",
-      text: "Before either of us knew what siblings were supposed to be, we were already figuring it out -- one argument, one alliance at a time.",
-    },
-    {
-      image: "/photos/memory-2.jpg",
-      number: "02",
-      title: "Partners In Crime",
-      text: "Every plan that wasn't supposed to work somehow did, mostly because we refused to tell on each other.",
-    },
-    {
-      image: "/photos/memory-3.jpg",
-      number: "03",
-      title: "The Arguments",
-      text: "We fought about everything and nothing. None of it mattered by the next morning. All of it, somehow, still does.",
-    },
-    {
-      image: "/photos/memory-4.jpg",
-      number: "04",
-      title: "Growing Apart, Sort Of",
-      text: "Different rooms, different cities, different lives -- and somehow still the first person I want to tell things to.",
-    },
-    {
-      image: "/photos/memory-5.jpg",
-      number: "05",
-      title: "Every Rakhi",
-      text: "One thread, tied the same way, every single year. The one tradition that never once felt like an obligation.",
-    },
+  {
+    image: photo("memory-1.jpg"),
+    number: "01",
+    title: "The Beginning",
+    text: "Before either of us knew what siblings were supposed to be, we were already figuring it out -- one argument, one laugh, one memory at a time.",
+  },
+  {
+    image: photo("memory-2.jpg"),
+    number: "02",
+    title: "Partners In Crime",
+    text: "Every plan that wasn't supposed to work somehow did, mostly because we refused to tell on each other.",
+  },
+  {
+    image: photo("memory-3.jpg"),
+    number: "03",
+    title: "The Arguments",
+    text: "We fought about everything and nothing. None of it mattered by the next morning. All of it, somehow, still does.",
+  },
+  {
+    image: photo("memory-4.jpg"),
+    number: "04",
+    title: "Growing Apart, Sort Of",
+    text: "Different rooms, different cities, different lives -- and somehow still the first person I want to tell things to.",
+  },
+  {
+    image: photo("memory-5.jpg"),
+    number: "05",
+    title: "Every Rakhi",
+    text: "One thread, tied the same way, every single year. The one tradition that never once felt like an obligation.",
+  },
+],
   
-  ],
+
 
   // --------------------------------------------------------------------------
   // SCENE 04 -- THE EMOTIONAL MESSAGE
