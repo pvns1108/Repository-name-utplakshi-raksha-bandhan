@@ -6,6 +6,11 @@
 // yours -- just edit the values below.
 // ============================================================================
 
+const BASE = import.meta.env.BASE_URL;
+
+const photo = (name) => `${BASE}photos/${name}`;
+const music = (name) => `${BASE}music/${name}`;
+const asset = (path) => `${import.meta.env.BASE_URL}${path}`;
 export const siteConfig = {
   // The name that appears in the finale.
   sisterName: "Utplakshi",
@@ -76,12 +81,7 @@ export const siteConfig = {
       title: "Every Rakhi",
       text: "One thread, tied the same way, every single year. The one tradition that never once felt like an obligation.",
     },
-    {
-      image: "/photos/memory-6.jpg",
-      number: "06",
-      title: "Now",
-      text: "Older, busier, further apart on paper -- and somehow none of that has changed a single thing that matters.",
-    },
+  
   ],
 
   // --------------------------------------------------------------------------
