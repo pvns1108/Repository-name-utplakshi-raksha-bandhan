@@ -120,8 +120,8 @@ export const siteConfig = {
   // Music never autoplays -- she has to press play herself. If the file at
   // "src" is missing, the control quietly hides itself instead of breaking.
   // --------------------------------------------------------------------------
-  music: {
-    enabled: true,
-    src: "/music/rakhi.mp3",
-  },
+ music: {
+  enabled: true,
+  src: music("rakhi.mp3"),
+},
 };
